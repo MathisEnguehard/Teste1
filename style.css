@@ -1,0 +1,292 @@
+*
+{
+  font-family: Quattrocento Sans,sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 62.5%;
+
+}
+
+h1{
+  font-size: 2.6rem;
+}
+
+h2{
+  font-size: 4.8rem;
+}
+
+h3{
+  font-size: 3rem;
+}
+
+h4,
+h5{
+  font-size: 2.8rem;
+}
+
+li{
+  font-size: 2rem;
+  list-style: none;
+}
+
+.TITRE_PRINCIPAL
+{
+    color: #674636;
+    font-size: 40px;
+    line-height: 1.80857;
+    text-align: center;
+    margin: 2%;
+
+}
+
+.adresse
+{
+  text-decoration: none;
+}
+
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.menu
+{
+  background: grey;
+  color: white;
+}
+
+nav
+{
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+}
+
+nav ul
+{
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#home {
+  margin-right: 100px;
+}
+
+#projets{
+  margin-right: 100px;
+}
+
+#dessins{
+  margin-right: 100px;
+}
+
+#contact{
+  margin-right: 100px;
+}
+
+#logo{
+  width: 15%;
+  height: 15%;
+}
+
+.imagesaccueil{
+  list-style: none;
+}
+
+img{
+  left: 100px;
+  right: 100px;
+  width: 90%;
+  height: 90%;
+  margin-left: 5%;
+  transition: .7s linear;
+}
+
+#projet1{
+  margin-top: 10px;
+}
+
+#projet2{
+  margin-top: 10px;
+}
+
+.overlay{
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-20%, -30%);
+  text-align: center;
+}
+
+.text {
+  background-color: #674636;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  opacity: 0;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.text2 {
+  background-color: #674636;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  opacity: 0;
+  margin-top: 800px;
+  margin-right: 300px;
+}
+
+.text3 {
+  background-color: #674636;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+  opacity: 0;
+  margin-top: 1650px;
+  margin-right: 100px;
+}
+
+.container:hover .text2 {
+  opacity: 1;
+}
+
+.container:hover .text3 {
+  opacity: 1;
+}
+
+.container:hover img {
+  opacity: 0.7;
+}
+
+.container:hover .text {
+  opacity: 1;
+}
+
+/**Gillot partie 1**/
+
+.gillotsize{
+  left: 100px;
+  right: 100px;
+  width: 70%;
+  height: 70%;
+  margin-left: 16%;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: grey;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #674636;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: white;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.trait{
+color: white;
+font-size: 20px;
+line-height: 1.80857;
+text-align: center;
+margin-left: 8%;
+margin-right: 5%;
+margin-top: 3%;
+}
+
+.Copyright{
+  color: white;
+  font-size: 16px;
+  line-height: 1.80857;
+  text-align: center;
+  margin-left: 8%;
+  margin-right: 5%;
+  margin-top: 2%;
+
+}
